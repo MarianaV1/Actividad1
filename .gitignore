@@ -10,6 +10,21 @@
 *.userosscache
 *.sln.docstates
 
+# Ignorar archivos de configuración y solución de Visual Studio
+*.sln
+*.pyproj
+
+# Ignorar archivos y carpetas de Git
+.gitignore
+.gitattributes
+
+# Ignorar archivos innecesarios
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
